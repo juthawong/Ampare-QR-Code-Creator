@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Ampare QR Code Creator
+Comment=A Simple QR Code Creator For Linux
+Exec=ampareqrcodelinux
+Terminal=false
+Type=Application
+Icon=${SNAP}/meta/gui/icon.png
+Categories=Utility;
