@@ -4,7 +4,7 @@ summary: Ampare QR Code Creator
 description: A Simple QR Code Creator For Linux
 confinement: strict
 grade: stable
-icon: gui/icon.png
+icon: snap/gui/icon.png
 apps:
   ampareqrcodelinux:
     command: env TMPDIR=$XDG_RUNTIME_DIR desktop-launch $SNAP/ampareqrcodelinux
@@ -32,6 +32,6 @@ parts:
       - libpulse0
       - libxss1
       - libxtst6
-    source: linux-unpacked
+    source: ../linux-unpacked
     after:
       - desktop-gtk2
