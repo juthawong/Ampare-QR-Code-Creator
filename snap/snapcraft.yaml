@@ -32,6 +32,6 @@ parts:
       - libpulse0
       - libxss1
       - libxtst6
-    source: ../linux-unpacked
+    source: linux-unpacked
     after:
       - desktop-gtk2
