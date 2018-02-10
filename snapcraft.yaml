@@ -32,6 +32,6 @@ parts:
       - libpulse0
       - libxss1
       - libxtst6
-    source: /home/juthawong/Documents/AmpareQRCodeLinux/dist/linux-unpacked
+    source: linux-unpacked
     after:
       - desktop-gtk2
